@@ -9,7 +9,7 @@ Lista de tareas moderna, interactiva y responsiva elaborada con HTML, CSS Y JAVA
 - `index.js`: logica de la aplicacion y renderizado dinamico
 
 ## Ver el proyecto
-- Demo: [https://sebasgortiz.github.io/todo-app/](https://sebasgortiz.github.io/todo-app-rdy/)
+- Demo: [https://sebasgortiz.github.io/todo-app-rdy]
 - Local: abre `index.html` en el navegador
 
 ## Autor
