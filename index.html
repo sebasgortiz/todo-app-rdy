@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>TODO APP</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Onest:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <!-- Botón para alternar Tema Claro/Oscuro -->
+    <button id="theme-toggle" class="theme-toggle-btn" aria-label="Cambiar tema">
+        <ion-icon name="moon-outline" id="theme-icon"></ion-icon>
+    </button>
+
+    <h1>TODO APP</h1>
+
+    <div class="input-container">
+        <input type="text" id="task-input" placeholder="Escribe aquí">
+        <button class="add-btn" id="add-btn">+</button>
+        <!-- Mensaje de error (oculto por defecto) -->
+        <p class="error-message" id="error-message" style="display: none;">Este campo no puede estar vacío</p>
+    </div>
+
+    <!-- Contenedor dinámico de tareas -->
+    <div class="tasks-container" id="tasks-container"></div>
+
+    <!-- Contadores dinámicos -->
+    <div class="counters-container">
+        <div class="counter total">
+            <span id="total-counter">Total: 0</span>
+        </div>
+        <div class="counter completed">
+            <span id="completed-counter">Completadas: 0</span>
+        </div>
+        <div class="counter incompleted">
+            <span id="incompleted-counter">Incompletas: 0</span>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
